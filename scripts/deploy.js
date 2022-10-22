@@ -1,9 +1,9 @@
 async function main() {
-    const HelloWorld = await ethers.getContractFactory("HelloWorld");
+    const Practice = await ethers.getContractFactory("Practice");
 
     // Start deployment, returning a promise that resolves to a contract object
-    const hello_world = await HelloWorld.deploy("Hello World!");
-    console.log("Contract deployed to address:", hello_world.address);
+    const practice = await Practice.deploy("PBW Practice");
+    console.log("Contract deployed to address:", practice.address);
 }
 
 main()
