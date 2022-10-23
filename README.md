@@ -52,4 +52,5 @@ Enter the following adresses in the address field on this [web interface](https:
 ### Significant source code dependencies:
 
 - OpenZeppelin: *https://github.com/OpenZeppelin*
+- Polygon ID tuto repo: https://github.com/0xPolygonID/tutorial-examples
 
