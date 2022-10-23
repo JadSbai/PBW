@@ -29,7 +29,7 @@ contract CheckoutNFT is ERC721URIStorage {
         _;
     }
 
-    function mintNFT(address recipient, string memory tokenURI) public onlyOwner validAddress(recipient)
+    function mintNFT(address recipient, string memory tokenURI) public validAddress(recipient)
     returns (uint256)
     {
         _tokenIds.increment();
