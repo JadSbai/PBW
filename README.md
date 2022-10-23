@@ -17,7 +17,7 @@ We propose a forward-thinking prescription pipeline for the NHS with blockchain.
 
 ### Tech Description
 
-The contracts are deployed on the polygon mumbai testnet: https://mumbai.polygonscan.com/
+The contracts are deployed on the polygon mumbai testnet: https://mumbai.polygonscan.com/ \n
 Enter the following adresses in the adress field on the above webpage to visualise the transactions of each smart contract as well as their owned ERC721 tokens:
 
 - Contract practice deployed to address: 0xE32E8a82bB4DCf9ea2E1CFEcc4d73F5245B2a39e
