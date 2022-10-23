@@ -41,6 +41,7 @@ Enter the following adresses in the address field on this [web interface](https:
 - Contract reservationToken deployed to address: 0x21601dd842A3Ea99406117DCF94Ea3FBfF92413D
 - Contract stockAllocation deployed to address: 0x5Bcb3420340D8818f232F5bEa73a51FDAB1458e8
 - Contract stockReq deployed to address: 0x5310dc4Bdb1d48619335f7f38B61AF02E1EC79E7
+- Contract patientVerifier deployed to address: 0xCE73A0b914341DC3e585fB793970D8e8eDfb6e50
 
 
 ### Tech Stack
