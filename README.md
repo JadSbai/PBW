@@ -1,4 +1,4 @@
-# Porously Bowling Watchdogs?
+# Porously Bowling Watchdogs
 
 **Members:**
 
@@ -11,6 +11,18 @@
 ## Pharma3:
 
 We propose a forward-thinking prescription pipeline for the NHS with blockchain. Prescriptions are built on a need-to-know basis with ZK-Proofs, and authenticated as a three-way handshake between patient, doctor and pharmacy. Participants and drug stock remain accountable throughout the entire flow from supplier to patient.
+
+#### Problems solved:
+
+- Doctors cannot checkout drugs to spurious patients (prescriptions must be linked with physical/virtual appointments that were attended and confirmed by both parties)
+- Prescriptions can no longer be counterfeited, used past their expiry, or used more than once.
+- Sensitive medical data won’t be managed in a cleartext format, rather using cryptographic protocols afforded by the utilization of blockchain
+- Realization of true authenticity within prescriptions and their involved actors/contents.
+- Current centralized authorities are based on uncertifiable and unmaintained databases, with no clear mode of correspondence between supplies and prescribers of medicine.
+- Facilitation of a fully digitized supply chain, where any and all actors are fully accountable when faced with forensic appraisal.
+
+
+### Demo
 
 
 ## Tech Specs
