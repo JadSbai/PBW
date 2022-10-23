@@ -8,11 +8,10 @@ contract Patient is ERC721{
     address public owner;
     uint private reservationTokenId;
 
-    /* when the blog is deployed, give it a name */
     /* also set the creator as the owner of the contract */
-    constructor(uint _id) ERC721("Patient", "P") {
+    constructor(uint _id, address _owner) ERC721("Patient", "P") {
         id = _id;
-        owner = msg.sender;
+        owner = _owner;
     }
 
     /* transfers ownership of the contract to another address */

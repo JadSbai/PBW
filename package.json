@@ -19,6 +19,7 @@
     "@walletconnect/web3-provider": "^1.8.0",
     "dotenv": "^16.0.3",
     "nft.storage": "^7.0.0",
+    "solidity-bytes-utils": "^0.8.0",
     "web3modal": "^1.9.9"
   }
 }
