@@ -5,12 +5,12 @@ pragma solidity ^0.8.12;
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract PrescriptionNFT is ERC721URIStorage {
+contract StockAllocationNFT is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
     address public owner;
 
-    constructor() ERC721("PrescriptionNFT", "PFT") {
+    constructor() ERC721("StockAllocationNFT", "SAFT") {
         owner = msg.sender;
     }
 
@@ -29,14 +29,14 @@ contract PrescriptionNFT is ERC721URIStorage {
     }
 
     function mintNFT(address recipient, string memory tokenURI) public onlyOwner validAddress(recipient)
-        returns (uint256)
+    returns (uint256)
     {
-            _tokenIds.increment();
+        _tokenIds.increment();
 
-            uint256 newItemId = _tokenIds.current();
-            _mint(recipient, newItemId);
-            _setTokenURI(newItemId, tokenURI);
+        uint256 newItemId = _tokenIds.current();
+        _mint(recipient, newItemId);
+        _setTokenURI(newItemId, tokenURI);
 
-            return newItemId;
+        return newItemId;
     }
 }
