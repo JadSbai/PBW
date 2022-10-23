@@ -29,6 +29,10 @@ We propose a forward-thinking prescription pipeline for the NHS with blockchain.
 
 ### Tech Description
 
+
+In an effort to streamline the overall process, we sketched out a reasonably complex but sensible design whereby different contracts would interact and transfer ownerships of ERC721 tokens between each other to share the least privileged data between stakeholders. In an attempt to maintain high cohesion and low coupling we decided to subdivide our smart contacts into 2 main types: The “NFT” smart contracts with the unique responsibility of minting and eventually burning the NFTs used across the app and the “Class” contracts whose role is to represent and manage the different actors of the system, namely the patients, doctors, pharmacies and the NHS broker. The “Class” smart contracts will instantiate and use the abstraction provided by the NFT contracts to produce and manage NFTs. The “NFT” contracts leverage the powerful off-chain storage-alternative provided by the flawless combination between IPFS and FlipCoin to increase speed and reduce cost of NFT metadata storage. Ultimately, the utilization of all these features has resulted in a user-friendly, fast system that enforces accountability and security - giving actors power throughout the process without taking from the efficiency.
+
+
 The contracts are deployed on the polygon mumbai testnet. 
 Enter the following adresses in the address field on this [web interface](https://mumbai.polygonscan.com/) to visualise the transactions of each smart contract as well as their owned ERC721 tokens:
 
