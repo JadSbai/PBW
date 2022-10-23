@@ -46,7 +46,7 @@ Enter the following adresses in the address field on this [web interface](https:
 
 ### Tech Stack
 
-- Frontend: Next.js, React.js
+- Frontend: Next.js, React.js, tailwindcss
 - Backend: Polygon, Alchemy, MetaMask, HardHat, Ethers.js, Node.js, Solidity
 
 
