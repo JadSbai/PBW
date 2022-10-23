@@ -3,7 +3,7 @@
 **Members:**
 
 - Alex Clarke
-- Jad Sbai
+- Jad Sbaï
 - Jay Milligan
 - Meyad Golmakani
 - Sam Brownstone
